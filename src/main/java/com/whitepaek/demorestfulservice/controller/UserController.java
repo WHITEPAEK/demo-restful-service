@@ -3,7 +3,7 @@ package com.whitepaek.demorestfulservice.controller;
 import com.whitepaek.demorestfulservice.bean.User;
 import com.whitepaek.demorestfulservice.dao.UserDaoService;
 import com.whitepaek.demorestfulservice.exception.UserNotFoundException;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
